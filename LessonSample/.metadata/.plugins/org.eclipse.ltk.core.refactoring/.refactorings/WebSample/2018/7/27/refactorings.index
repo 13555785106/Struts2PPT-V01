@@ -1,0 +1,15 @@
+1530859670550	Delete element
+1530860029456	Delete elements
+1530861219271	Copy file
+1530862112135	Copy compilation unit
+1530862199165	Copy compilation unit
+1530866958301	Rename local variable 'paramMap'
+1530891142203	Rename resource 'RegisterAction.properties'
+1530891708652	Rename field 'propSQL'
+1530924340487	Copy file
+1530924356898	Rename resource 'Register.properties'
+1530924809511	Rename field 'propMsg'
+1530925113510	Rename field 'messages'
+1530973348107	Rename local variable 'notNeedTrim'
+1530975255943	Move 'error.jsp' to 'jsp'
+1530976717265	Rename type 'HttpForward'

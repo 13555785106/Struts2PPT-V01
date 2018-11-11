@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<constant name="struts.enable.SlashesInActionNames"
+		value="false" />
+	<constant name="struts.enable.DynamicMethodInvocation"
+		value="true" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.reload" value="true" />
+	<constant name="struts.custom.i18n.resources"
+		value="messageResource" />
+	<constant name="struts.ognl.allowStaticMethodAccess"
+		value="true" />
+	<constant name="struts.excludedClasses"
+		value="
+                java.lang.Object,
+                java.lang.Runtime,
+                java.lang.Class,
+                java.lang.ClassLoader,
+                java.lang.Shutdown,
+                java.lang.ProcessBuilder,
+                ognl.OgnlContext,
+                ognl.ClassResolver,
+                ognl.TypeConverter,
+                ognl.MemberAccess,
+                ognl.DefaultMemberAccess,
+                com.opensymphony.xwork2.ognl.SecurityMemberAccess,
+                com.opensymphony.xwork2.ActionContext" />
+	<constant name="struts.ognl.enableOGNLEvalExpression"
+		value="true" />
+	<package name="default" extends="struts-default">
+
+		<action name="register" class="com.sample.RegisterAction">
+			<result>/WEB-INF/jsp/RegisterSuccess.jsp</result>
+			<result name="input">/WEB-INF/jsp/RegisterInput.jsp</result>
+		</action>
+
+	</package>
+</struts>

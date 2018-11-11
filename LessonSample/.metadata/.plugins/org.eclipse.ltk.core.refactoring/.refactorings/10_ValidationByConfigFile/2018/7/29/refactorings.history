@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.hr.db.model&apos; to &apos;14_JsonSupport/src&apos;&#x0A;- Original project: &apos;10_Validation&apos;&#x0A;- Destination element: &apos;14_JsonSupport/src&apos;&#x0A;- Original element: &apos;10_Validation/src/com.hr.db.model&apos;" description="Copy package" destination="=14_JsonSupport/src" element1="/src&lt;com.hr.db.model" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1531725979316" version="1.0"/>
+</session>

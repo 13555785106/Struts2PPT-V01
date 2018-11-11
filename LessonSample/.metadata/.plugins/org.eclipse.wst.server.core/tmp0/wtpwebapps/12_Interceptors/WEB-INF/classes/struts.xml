@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<constant name="struts.enable.SlashesInActionNames" value="false" />
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.i18n.reload" value="true" />
+	<constant name="struts.custom.i18n.resources" value="messageResource" />
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	<constant name="struts.excludedClasses"
+		value="
+                java.lang.Object,
+                java.lang.Runtime,
+                java.lang.Class,
+                java.lang.ClassLoader,
+                java.lang.Shutdown,
+                java.lang.ProcessBuilder,
+                ognl.OgnlContext,
+                ognl.ClassResolver,
+                ognl.TypeConverter,
+                ognl.MemberAccess,
+                ognl.DefaultMemberAccess,
+                com.opensymphony.xwork2.ognl.SecurityMemberAccess,
+                com.opensymphony.xwork2.ActionContext" />
+	<constant name="struts.ognl.enableOGNLEvalExpression" value="true" />
+
+	<package name="default" extends="struts-default">
+
+		<interceptors>
+			<interceptor name="simpleInterceptor1" class="com.sample.interceptors.SimpleInterceptor">
+				<param name="name">simpleInterceptor1</param>
+			</interceptor>
+			<interceptor name="simpleInterceptor2" class="com.sample.interceptors.SimpleInterceptor">
+				<param name="name">simpleInterceptor2</param>
+			</interceptor>
+			<interceptor name="onlyMethodInterceptor" class="com.sample.interceptors.OnlyMethodInterceptor">
+				<param name="name">onlyMethodInterceptor</param>
+				<param name="includeMethods">execute</param>
+			</interceptor>
+			<interceptor name="authorityInterceptor" class="com.sample.interceptors.AuthorityInterceptor" />
+		</interceptors>
+		<global-results>
+			<result name="login">/WEB-INF/content/login-input.jsp</result>
+		</global-results>
+		<action name="login" class="com.sample.actions.LoginAction">
+			<result name="input">/WEB-INF/content/login-input.jsp</result>
+			<result name="error">/WEB-INF/content/login-error.jsp</result>
+			<result name="success">/WEB-INF/content/login-success.jsp</result>
+			<interceptor-ref name="defaultStack" />
+			<interceptor-ref name="simpleInterceptor1" />
+			<interceptor-ref name="simpleInterceptor2" />
+			<interceptor-ref name="onlyMethodInterceptor" />
+		</action>
+
+		<action name="*">
+			<result>/WEB-INF/content/{1}.jsp</result>
+			<interceptor-ref name="defaultStack"/>
+			<interceptor-ref name="authorityInterceptor"/>
+		</action>
+	</package>
+</struts>

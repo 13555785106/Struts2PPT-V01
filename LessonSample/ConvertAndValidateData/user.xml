@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_131" class="java.beans.XMLDecoder">
+ <object class="com.sample.User">
+  <void property="account">
+   <string>sa</string>
+  </void>
+  <void property="birthday">
+   <object class="java.util.Date">
+    <long>1530789031966</long>
+   </object>
+  </void>
+  <void property="hobbies">
+   <array class="java.lang.String" length="3">
+    <void index="0">
+     <string>足球</string>
+    </void>
+    <void index="1">
+     <string>篮球</string>
+    </void>
+    <void index="2">
+     <string>排球</string>
+    </void>
+   </array>
+  </void>
+  <void property="passwd">
+   <string>123</string>
+  </void>
+  <void property="salary">
+   <double>3000.0</double>
+  </void>
+  <void property="sex">
+   <string>男</string>
+  </void>
+ </object>
+</java>

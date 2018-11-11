@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;11_Validation2&apos; to &apos;11_ValidationByAnnotation&apos;" description="Rename resource &apos;11_Validation2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/11_Validation2" name="11_ValidationByAnnotation" stamp="1531614327458" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;12_FileUpload&apos; to &apos;12_FileUpOrDownLoad&apos;" description="Rename resource &apos;12_FileUpload&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/12_FileUpload" name="12_FileUpOrDownLoad" stamp="1531706768392" updateReferences="true"/>
+</session>

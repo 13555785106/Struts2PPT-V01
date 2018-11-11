@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SqlDateEditor.java&apos; to &apos;ValidateForm/src/com.sample.beans.editors&apos;&#x0A;- Original project: &apos;jsr303&apos;&#x0A;- Destination element: &apos;ValidateForm/src/com.sample.beans.editors&apos;&#x0A;- Original element: &apos;com.sample.propeditor.SqlDateEditor.java&apos;" description="Copy compilation unit" destination="=ValidateForm/src&lt;com.sample.beans.editors" element1="/src&lt;com.sample.propeditor{SqlDateEditor.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1531059611223" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC 
+	"-//Apache Struts//XWork Validator 1.0.3//EN"
+	"http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+	<field name="user.account">
+		<field-validator type="requiredstring"
+			short-circuit="true">
+			<param name="trim">true</param>
+			<message key="user.account.required" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="regex"><![CDATA[(\w{4,25})]]></param>
+			<message key="user.account.regex" />
+		</field-validator>
+	</field>
+	<field name="user.passwd">
+		<field-validator type="requiredstring"
+			short-circuit="true">
+			<param name="trim">true</param>
+			<message key="user.passwd.required" />
+		</field-validator>
+		<field-validator type="regex">
+			<param name="regex"><![CDATA[(\w{4,25})]]></param>
+			<message key="user.passwd.regex" />
+		</field-validator>
+	</field>
+	<field name="user.retryPasswd">
+		<field-validator type="fieldexpression">
+			<param name="expression"><![CDATA[(#parameters['user.retryPasswd']==#parameters['user.passwd'])]]></param>
+			<message>重复密码必须与密码相同</message>
+		</field-validator>
+	</field>
+	<field name="user.mobile">
+		<field-validator type="regex">
+			<param name="regex"><![CDATA[\s*(\d{11})?\s*]]></param>
+			<message>手机号码必须是11位数字</message>
+		</field-validator>
+	</field>
+	<field name="user.email">
+		<field-validator type="email">
+			<message>必须输入一个有效的邮件地址</message>
+		</field-validator>
+	</field>
+	<field name="user.salary">
+		<field-validator type="double">
+			<param name="minInclusive">0</param>
+			<param name="maxInclusive">50000</param>
+			<message>工资必须在${minInclusive}到${maxInclusive}之间</message>
+		</field-validator>
+	</field>
+	<field name="user.birthday">
+		<field-validator type="date">
+			<param name="min">2000-01-01</param>
+			<param name="max">2030-12-31</param>
+			<message>生日必须在 2000年01月01日 到 2030年12月31日 之间</message>
+		</field-validator>
+	</field>
+	<field name="user.hobbies">
+		<field-validator type="hobbies">
+			<param name="validHobbies">足球,篮球</param>
+			<message>爱好无效！必须是"${validHobbies}"之中的值</message>
+		</field-validator>
+	</field>
+</validators>

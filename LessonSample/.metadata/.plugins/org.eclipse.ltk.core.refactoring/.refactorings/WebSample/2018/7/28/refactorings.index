@@ -1,0 +1,100 @@
+1531010640706	Rename type 'Register'
+1531010652178	Rename resource 'Register.properties'
+1531010704164	Rename resource 'Register-Input.jsp'
+1531010716054	Rename resource 'Register-Success.jsp'
+1531040234616	Copy compilation unit
+1531040369633	Copy compilation unit
+1531048027943	Copy compilation unit
+1531048058930	Copy compilation unit
+1531060102498	Copy compilation unit
+1531060231812	Copy compilation unit
+1531060463631	Delete element
+1531060475939	Copy compilation unit
+1531064515286	Rename type 'Bean2Map'
+1531098670157	Move compilation unit
+1531098900660	Rename type 'AddUser'
+1531098909883	Rename resource 'AddUser.properties'
+1531098929947	Rename resource 'AddUser-Input.jsp'
+1531098940455	Rename resource 'AddUser-Success.jsp'
+1531099498609	Copy files
+1531099640521	Rename type 'User'
+1531099683855	Copy compilation unit
+1531100014563	Move elements
+1531100438633	Rename type 'Datas1'
+1531100764551	Rename type 'Datas2'
+1531101237648	Copy compilation unit
+1531101425251	Copy file
+1531103757312	Copy compilation unit
+1531103787076	Copy file
+1531104356074	Rename method 'getInputParams'
+1531106284056	Copy compilation unit
+1531106444383	Delete element
+1531106454562	Copy compilation unit
+1531106594443	Move compilation unit
+1531106610910	Copy compilation unit
+1531116132348	Rename local variable 'commonMessagesFileName'
+1531116213935	Rename resource 'messages.properties'
+1531117493342	Rename local variable 'birthday'
+1531120789239	Copy compilation unit
+1531120810273	Copy file
+1531123262816	Copy compilation unit
+1531123374680	Copy file
+1531124079430	Copy compilation unit
+1531124460402	Rename resource 'test.jsp'
+1531124472291	Rename resource 'test.jsp'
+1531124479258	Rename resource 'Test1.jsp'
+1531124559765	Copy compilation unit
+1531124643414	Copy file
+1531128124107	Copy file
+1531128144558	Rename resource 'ListUser2-Result2.jsp'
+1531130932006	Rename resource 'bootstrap-3.3.7-dist'
+1531135340592	Copy compilation unit
+1531150448026	Copy file
+1531194453072	Rename type 'AjaxAndJson'
+1531205624063	Copy compilation unit
+1531213838863	Copy compilation unit
+1531213864918	Rename type 'AjaxAndJsonList'
+1531215293643	Rename resource 'startbootstrap-sb-admin-2-gh-pages'
+1531215300180	Rename resource 'startbootstrap-sb-admin-3.3.7'
+1531215334924	Copy file
+1531215348320	Rename resource 'index.html'
+1531220188959	Delete element
+1531220336199	Delete element
+1531220355290	Copy file
+1531220368081	Delete element
+1531220376733	Rename resource 'jquery-1.12.4.js'
+1531220434822	Rename resource 'b2'
+1531220472215	Copy folder
+1531220492766	Rename resource 'jquery-ui-1.12.1'
+1531220503896	Delete elements
+1531220553108	Move 2 resources to 'jquery-ui'
+1531220561969	Delete element
+1531220576282	Delete element
+1531230129262	Delete element
+1531230274950	Delete element
+1531230280348	Delete element
+1531236403030	Move 2 resources to 'sample'
+1531277274406	Copy file
+1531277939623	Copy file
+1531299315449	Copy file
+1531526989574	Rename field 'REQ_ERRORS'
+1531527208998	Rename method 'getErrorMessages'
+1531527492587	Rename method 'getCachedParams'
+1531527507805	Rename method 'setCachedParams'
+1531528029130	Rename method 'getRequestParameters'
+1531528195540	Rename method 'getErrorMessage'
+1531528268248	Rename method 'addErrorMessage'
+1531528314961	Rename local variable 'errorMap'
+1531531839425	Rename method 'getFieldError'
+1531533609331	Rename field 'messages'
+1531534171437	Rename field 'propperties'
+1531534927577	Rename method 'getErrorMessage'
+1531535580106	Rename method 'getFiledErrors'
+1531535597757	Rename method 'addFieldError'
+1531540546818	Copy file
+1531550398828	Move 4 resources to 'servlets'
+1531550467778	Move 'Login-Input.jsp' to 'sample'
+1531550977833	Move 'Login-Input.jsp' to 'jsp'
+1531551028568	Move 'Login-Input.jsp' to 'servlets'
+1531551371293	Delete element
+1531574691699	Copy package

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server port="9005" shutdown="SHUTDOWN">
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener"/>
+  <Listener SSLEngine="on" className="org.apache.catalina.core.AprLifecycleListener"/>
+  <Listener className="org.apache.catalina.core.JasperListener"/>
+  <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener"/>
+  <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener"/>
+  <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener"/>
+
+  <Service name="Catalina">
+    <Connector connectionTimeout="20000" port="9090" protocol="HTTP/1.1"/>
+    <Engine defaultHost="localhost" name="Catalina">
+      <Host appBase="webapps" autoDeploy="true" name="localhost" unpackWARs="true">
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
+
+      <Context docBase="11_FileUpOrDownLoad" path="/11_FileUpOrDownLoad" reloadable="true" source="org.eclipse.jst.jee.server:11_FileUpOrDownLoad"/><Context docBase="12_Interceptors" path="/12_Interceptors" reloadable="true" source="org.eclipse.jst.jee.server:12_Interceptors"/><Context docBase="13_JsonSupport" path="/13_JsonSupport" reloadable="true" source="org.eclipse.jst.jee.server:13_JsonSupport"/><Context docBase="10_ValidationByAnnotation" path="/10_ValidationByAnnotation" reloadable="true" source="org.eclipse.jst.jee.server:10_ValidationByAnnotation"/><Context docBase="WebSample" path="/WebSample" reloadable="true" source="org.eclipse.jst.jee.server:WebSample"/></Host>
+    </Engine>
+  </Service>
+</Server>

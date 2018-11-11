@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="shape" class="com.telecom.geometry.Ellipse">
+		<constructor-arg>
+			<value>9</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>6</value>
+		</constructor-arg>
+		<!-- <property name="width" value="8" /> <property name="height" value="6" 
+			/> -->
+	</bean>
+	<bean id="springDSN"
+		class="org.apache.commons.dbcp2.BasicDataSource">
+		<property name="driverClassName"
+			value="oracle.jdbc.driver.OracleDriver" />
+		<property name="url"
+			value="jdbc:oracle:thin:@localhost:1521:xe" />
+		<property name="username" value="hr" />
+		<property name="password" value="123456" />
+	</bean>
+	<bean id="jdbcTemplate"
+		class="org.springframework.jdbc.core.JdbcTemplate" abstract="false"
+		lazy-init="false" autowire="default">
+		<property name="dataSource">
+			<ref bean="springDSN" />
+		</property>
+	</bean>
+	<bean id="dac" class="com.hr.db.Dac" factory-method="getInstance">
+		<property name="jdbcTemplate">
+			<ref bean="jdbcTemplate" />
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<constant name="struts.enable.SlashesInActionNames"
+		value="false" />
+	<constant name="struts.enable.DynamicMethodInvocation"
+		value="true" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.reload" value="true" />
+	<constant name="struts.custom.i18n.resources" value="global" />
+	<package name="default" extends="struts-default">
+		<action name="resultType" class="org.sample.ResultTypeAction">
+			<result>/WEB-INF/jsp/ResultType.jsp</result>
+			<result name="plainText" type="plainText">
+
+				<param name="charSet">UTF-8</param>
+			</result>
+			<!-- <result name="redirect" type="redirect"> /welcome.jsp?message=${message} 
+				</result> -->
+			<result name="redirect" type="redirect">
+				<param name="location">/welcome.jsp</param>
+				<param name="message">${message}</param>
+			</result>
+			<result name="redirectAction" type="redirectAction"> 
+				<param name="actionName">another</param>
+				<param name="namespace">/</param>
+				<param name="message">${message}</param>
+			</result>
+			<allowed-methods>plainText,redirect,redirectAction</allowed-methods>
+		</action>
+		<action name="another" class="org.sample.AnotherAction">
+			<result>/WEB-INF/jsp/Another.jsp</result>
+		</action>
+		<action name="attr" class="org.sample.AttrAction">
+			<result>/WEB-INF/jsp/attr_${name}.jsp</result>
+		</action> 
+	</package>
+</struts>

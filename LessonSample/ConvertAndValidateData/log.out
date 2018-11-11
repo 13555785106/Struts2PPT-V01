@@ -1,0 +1,105 @@
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+HV000001: Hibernate Validator 6.0.10.Final
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+Trying to load META-INF/validation.xml via TCCL
+Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+No META-INF/validation.xml found. Using annotation based configuration only.
+Loaded expression factory via original TCCL
+HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=PARAMETER, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@1a38c59b, message={javax.validation.constraints.Min.message}, value=0, payload=[Ljava.lang.Class;@7f77e91b}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=PARAMETER, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@44a664f2, message={javax.validation.constraints.Max.message}, value=1, payload=[Ljava.lang.Class;@7f9fcf7f}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@4c40b76e, message={javax.validation.constraints.Min.message}, value=0, payload=[Ljava.lang.Class;@2ea6137}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@41ee392b, message={javax.validation.constraints.Max.message}, value=5, payload=[Ljava.lang.Class;@1e67a849}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+ValidationMessages not found.
+ContributorValidationMessages not found.
+org.hibernate.validator.ValidationMessages found.
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+Trying to load META-INF/validation.xml via TCCL
+Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+No META-INF/validation.xml found. Using annotation based configuration only.
+Loaded expression factory via original TCCL
+HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@7c7b252e, message={javax.validation.constraints.Min.message}, value=0, payload=[Ljava.lang.Class;@4d5d943d}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@368f2016, message={javax.validation.constraints.Max.message}, value=5, payload=[Ljava.lang.Class;@4c583ecf}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Class level annotation are getting ignored for com.sample.User.
+ValidationMessages not found.
+ContributorValidationMessages not found.
+org.hibernate.validator.ValidationMessages found.
+ValidationMessages not found.
+ContributorValidationMessages not found.
+org.hibernate.validator.ValidationMessages found.
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+Trying to load META-INF/validation.xml via TCCL
+Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+No META-INF/validation.xml found. Using annotation based configuration only.
+Loaded expression factory via original TCCL
+HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=PARAMETER, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@33d512c1, message={javax.validation.constraints.Min.message}, value=0, payload=[Ljava.lang.Class;@515c6049}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=PARAMETER, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@639c2c1d, message={javax.validation.constraints.Max.message}, value=1, payload=[Ljava.lang.Class;@5fe94a96}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@443118b0, message={javax.validation.constraints.Min.message}, value=0, payload=[Ljava.lang.Class;@765d7657}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@74235045, message={javax.validation.constraints.Max.message}, value=5, payload=[Ljava.lang.Class;@618b19ad}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+ValidationMessages not found.
+ContributorValidationMessages not found.
+org.hibernate.validator.ValidationMessages found.
+ValidationMessages not found.
+ContributorValidationMessages not found.
+org.hibernate.validator.ValidationMessages found.
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+Trying to load META-INF/validation.xml via TCCL
+Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+No META-INF/validation.xml found. Using annotation based configuration only.
+Loaded expression factory via original TCCL
+HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=PARAMETER, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@6a6cb05c, message={javax.validation.constraints.Min.message}, value=0, payload=[Ljava.lang.Class;@40a4337a}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=PARAMETER, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@6025e1b6, message={javax.validation.constraints.Max.message}, value=1, payload=[Ljava.lang.Class;@22ff4249}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@4c402120, message={javax.validation.constraints.Min.message}, value=0, payload=[Ljava.lang.Class;@327514f}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@5b12b668, message={javax.validation.constraints.Max.message}, value=5, payload=[Ljava.lang.Class;@1165b38}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+ValidationMessages not found.
+ContributorValidationMessages not found.
+org.hibernate.validator.ValidationMessages found.
+ValidationMessages not found.
+ContributorValidationMessages not found.
+org.hibernate.validator.ValidationMessages found.
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+Trying to load META-INF/validation.xml via TCCL
+Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+No META-INF/validation.xml found. Using annotation based configuration only.
+Loaded expression factory via original TCCL
+HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=PARAMETER, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@7a8c8dcf, message={javax.validation.constraints.Min.message}, value=0, payload=[Ljava.lang.Class;@24269709}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=PARAMETER, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@2aceadd4, message={javax.validation.constraints.Max.message}, value=1, payload=[Ljava.lang.Class;@24aed80c}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@3a52dba3, message={javax.validation.constraints.Min.message}, value=0, payload=[Ljava.lang.Class;@2a5c8d3f}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@752325ad, message={javax.validation.constraints.Max.message}, value=5, payload=[Ljava.lang.Class;@279fedbd}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+ValidationMessages not found.
+ContributorValidationMessages not found.
+org.hibernate.validator.ValidationMessages found.

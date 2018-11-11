@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="js/jquery-1.12.4.js"></script>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<title>表单样式</title>
+</head>
+<body>
+	<div class="container" style="margin-top: 32px;">
+		<div class="row">
+			<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label class="col-sm-3 control-label"><span class="glyphicon glyphicon-user"></span> 账号:</label>
+						<div class="col-sm-6">
+							<input class="form-control" id="account" type="text"
+								placeholder="请输入账号">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">密码:</label>
+						<div class="col-sm-9">
+							<input class="form-control" id="passwd" type="text"
+								placeholder="请输入密码">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">确认密码:</label>
+						<div class="col-sm-9">
+							<input class="form-control" id="confirmPasswd" type="text"
+								placeholder="请输入确认密码">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label"><span class="glyphicon glyphicon-calendar"></span> 生日:</label>
+						<div class="col-sm-5">
+							<input class="form-control" id="birthday" type="text"
+								placeholder="yyyy-MM-dd格式">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">性别:</label>
+						<div class="col-sm-9">
+							<label class="radio-inline"> <input type="radio"
+								name="sex" id="sex" value="男" checked> 男
+							</label> <label class="radio-inline"> <input type="radio"
+								name="sex" id="sex" value="女">女
+							</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">工资:</label>
+						<div class="col-sm-4">
+							<input class="form-control" id="salary" type="text"
+								placeholder="请输入工资">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">爱好:</label>
+						<div class="col-sm-9">
+							<label class="checkbox-inline"> <input type="checkbox"
+								id="hobbies" value="足球"> 足球
+							</label> <label class="checkbox-inline"> <input type="checkbox"
+								id="hobbies" value="篮球"> 篮球
+							</label> <label class="checkbox-inline"> <input type="checkbox"
+								id="hobbies" value="排球"> 排球
+							</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-4 col-sm-offset-4">
+							<button type="submit" class="btn btn-primary">提交</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

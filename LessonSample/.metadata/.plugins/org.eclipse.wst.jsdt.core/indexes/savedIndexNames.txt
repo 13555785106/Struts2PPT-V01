@@ -1,0 +1,21 @@
+INDEX VERSION 1.4+/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2757599415.index
+1410686727.index
+1960963096.index
+790334468.index
+3508278088.index
+3364161871.index
+1702803526.index
+836388997.index
+1961660913.index
+3171249984.index
+2292727249.index
+3786865958.index
+1709286853.index
+2515479954.index
+891452140.index
+2117394542.index
+1717130596.index
+806030714.index
+1983889345.index
+3482074694.index

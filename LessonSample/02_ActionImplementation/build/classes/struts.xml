@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.reload" value="true" />
+	<constant name="struts.custom.i18n.resources" value="global" />
+	<package name="default" extends="struts-default">
+		<action name="*">
+			<result>/WEB-INF/jsp/{1}.jsp</result>
+		</action>
+		<action name="login" class="org.sample.LoginAction" method="input">
+			<result name="input">/WEB-INF/jsp/Login.jsp</result>
+			<result name="success">/WEB-INF/jsp/Welcome.jsp</result>
+		</action>
+		<action name="test01" class="org.sample.Test01Action">
+			<result name="success">/WEB-INF/jsp/Test01.jsp</result>
+		</action>
+		<action name="test02" class="org.sample.Test02Action">
+			<result name="success">/WEB-INF/jsp/Test02.jsp</result>
+		</action>
+		<action name="test03" class="org.sample.Test03Action">
+			<result name="success">/WEB-INF/jsp/Test03.jsp</result>
+		</action>
+	</package>
+</struts>

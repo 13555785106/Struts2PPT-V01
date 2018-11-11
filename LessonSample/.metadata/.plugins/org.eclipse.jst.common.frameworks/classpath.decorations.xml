@@ -1,0 +1,78 @@
+<classpath>
+  <container id="07_I18n!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/07_I18n/WebContent/WEB-INF/lib/struts2-convention-plugin-2.5.16.jar">
+      <source-attachment-path>/07_I18n/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/07_I18n/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/07_I18n/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="08_Tag!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/08_Tag/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/08_Tag/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="11_Validation2!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/11_Validation2/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/11_Validation2/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="10_ValidationByAnnotation!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/10_ValidationByAnnotation/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/10_ValidationByAnnotation/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="12_FileUpload!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/12_FileUpload/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/12_FileUpload/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="06_Convention!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/06_Convention/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/06_Convention/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/06_Convention/WebContent/WEB-INF/lib/struts2-convention-plugin-2.5.16.jar">
+      <source-attachment-path>/06_Convention/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="03_ConfigAction!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/03_ConfigAction/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/03_ConfigAction/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="10_Validation!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/10_Validation/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/10_Validation/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="09_TypeConverter!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/09_TypeConverter/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/09_TypeConverter/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="13_Interceptors!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/13_Interceptors/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/13_Interceptors/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="01_HelloWorld!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/01_HelloWorld/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/01_HelloWorld/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="02_ActionImplementation!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/02_ActionImplementation/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/02_ActionImplementation/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="04_ConfigResult!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/04_ConfigResult/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/04_ConfigResult/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+  <container id="11_ValidationByAnnotation!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/xiaojf/Desktop/Struts2PPT-V01/LessonSample/11_ValidationByAnnotation/WebContent/WEB-INF/lib/struts2-core-2.5.16.jar">
+      <source-attachment-path>/11_ValidationByAnnotation/WebContent/WEB-INF/lib/struts-2.5.16-src.zip</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

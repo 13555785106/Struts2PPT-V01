@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<constant name="struts.enable.SlashesInActionNames" value="false" />
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.reload" value="true" />
+	<constant name="struts.custom.i18n.resources" value="global" />
+	<package name="pkg1" extends="struts-default" namespace="/pkg1">
+		<!-- <global-allowed-methods>*</global-allowed-methods> -->
+		<default-action-ref name="defaultAction" />
+		<action name="methodAction" class="org.sample.MethodAction">
+			<result name="input">/WEB-INF/jsp/MethodAction.jsp</result>
+			<result name="success">/WEB-INF/jsp/MethodAction.jsp</result>
+			<result name="firstMethod">/WEB-INF/jsp/MethodAction.jsp</result>
+			<result name="secondMethod">/WEB-INF/jsp/MethodAction.jsp</result>
+			<result name="thirdMethod">/WEB-INF/jsp/MethodAction.jsp</result>
+			<allowed-methods>firstMethod,secondMethod,thirdMethod</allowed-methods>
+		</action>
+		<action name="defaultAction" class="org.sample.DefaultAction">
+			<result name="success">/WEB-INF/jsp/DefaultAction.jsp</result>
+		</action>
+	</package>
+	<package name="pkg2" extends="struts-default" namespace="/pkg2">
+		<action name="methodAction" class="org.sample.MethodAction">
+			<result name="*">/WEB-INF/jsp/MethodAction.jsp</result>
+			<allowed-methods>firstMethod,secondMethod,thirdMethod</allowed-methods>
+		</action>
+	</package>
+	<package name="pkg3" extends="struts-default" namespace="/pkg3">
+		<action name="*Method" class="org.sample.MethodAction"
+			method="{1}Method">
+			<result name="*">/WEB-INF/jsp/MethodAction.jsp</result>
+			<allowed-methods>firstMethod,secondMethod,thirdMethod</allowed-methods>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,14 @@
+127.0.0.1 - - [15/Jul/2018:23:54:42 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:54:43 +0800] "GET /12_FileUpload/index.jsp HTTP/1.1" 200 325
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:54:44 +0800] "GET /12_FileUpload/config-browser HTTP/1.1" 200 3262
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:55:07 +0800] "POST /12_FileUpload/upload.action HTTP/1.1" 200 339
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:55:07 +0800] "GET /12_FileUpload/uploadFiles/hr-exam.xls HTTP/1.1" 200 50176
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:56:34 +0800] "GET /12_FileUpload/config-browser HTTP/1.1" 200 3262
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:56:35 +0800] "GET /12_FileUpload/config-browser HTTP/1.1" 200 3262
+127.0.0.1 - - [15/Jul/2018:23:59:12 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:59:17 +0800] "POST /12_FileUpload/upload.action HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:59:17 +0800] "GET /12_FileUpload/uploadFiles/hr-exam.xls HTTP/1.1" 200 50176
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:59:44 +0800] "GET /12_FileUpload/upload!input HTTP/1.1" 200 1004
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:59:44 +0800] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:59:55 +0800] "POST /12_FileUpload/upload.action;jsessionid=33DD4299063EA7539A1EA700F6B538F5 HTTP/1.1" 200 334
+0:0:0:0:0:0:0:1 - - [15/Jul/2018:23:59:55 +0800] "GET /12_FileUpload/uploadFiles/score.xls HTTP/1.1" 200 62464

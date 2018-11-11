@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constraint-mappings
+	xmlns="http://jboss.org/xml/ns/javax/validation/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://jboss.org/xml/ns/javax/validation/mapping validation-mapping-1.1.xsd"
+	version="1.1">
+	<default-package>com.sample</default-package>
+	<bean class="User">
+		<field name="account">
+			<constraint
+				annotation="javax.validation.constraints.NotNull">
+				<message>XML 账号不能为空</message>
+			</constraint>
+			<constraint annotation="javax.validation.constraints.Size">
+				<message>账号长度必须在{min}和{max}之间</message>
+				<element name="min">3</element>
+				<element name="max">5</element>
+			</constraint>
+		</field>
+		<field name="passwd">
+			<constraint
+				annotation="javax.validation.constraints.NotNull">
+				<message>密码不能为空</message>
+			</constraint>
+			<constraint annotation="javax.validation.constraints.Size">
+				<message>密码长度必须在{min}和{max}之间</message>
+				<element name="min">4</element>
+				<element name="max">5</element>
+			</constraint>
+		</field>
+		<field name="sex">
+			<constraint
+				annotation="javax.validation.constraints.NotNull">
+				<message>性别不能为空</message>
+			</constraint>
+			<constraint annotation="com.sample.constraints.Sex">
+				<message>性别必须是 "男" 或者 "女"</message>
+			</constraint>
+		</field>
+		<field name="salary">
+			<constraint
+				annotation="javax.validation.constraints.NotNull">
+				<message>工资不能为空</message>
+			</constraint>
+			<constraint annotation="javax.validation.constraints.Min">
+				<message>工资必须大于等于 {value}</message>
+				<element name="value">0</element>
+			</constraint>
+			<constraint annotation="javax.validation.constraints.Max">
+				<message>工资必须小于等于 {value}</message>
+				<element name="value">60000</element>
+			</constraint>
+		</field>
+		<field name="hobbies">
+			<constraint
+				annotation="javax.validation.constraints.NotNull">
+				<message>爱好不能为空</message>
+			</constraint>
+			<constraint annotation="javax.validation.constraints.Size">
+				<message>爱好至少选择 {min} 个</message>
+				<element name="min">1</element>
+			</constraint>
+			<constraint annotation="com.sample.constraints.Hobbies">
+				<message>爱好只能选择"足球"、"篮球"、"排球"</message>
+			</constraint>
+		</field>
+	</bean>
+
+</constraint-mappings>
